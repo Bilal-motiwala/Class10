@@ -2,7 +2,7 @@ import React from 'react'
 import Image from "next/image";
 const Sec1 = () => {
   return (
-    <div id='Caps'> 
+    <div id='BM-STORE'> 
     <br />
     <h2 className='text-center backdrop-blur-lg bg-slate-500 text-black'>Watchs</h2> 
     <br />
@@ -108,11 +108,11 @@ const Sec1 = () => {
 
 <div className='w-full md:w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
 
-<Image src="/watchno6rs3600.png" width={300} height={300} alt="Watch 6" ></Image>
+<Image src="/watchno6rs2600.PNG" width={300} height={300} alt="Watch 6" ></Image>
 
-<p className='text-center'>GC Stylish Chain Watch</p>
+<p className='text-center'>Stylish Chain Watch</p>
 
-<p className='text-center py-2'>price 3600</p>
+<p className='text-center py-2'>price 2600</p>
 
 <div className='flex justify-center my-2'>
     <button className='bg-red-500 text-white py-2 px-6 rounded-sm hover:bg-red-400'>Buy Now</button>
