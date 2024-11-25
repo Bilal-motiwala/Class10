@@ -2,53 +2,55 @@ import React from 'react'
 import Image from "next/image";
 const Sec1 = () => {
   return (
-    <>
-    
-    <br />    
-    <h2 className='text-center backdrop-blur-lg bg-slate-500 text-white'>Watchs</h2> 
+    <div id='Caps'> 
     <br />
-     <main className='flex justify-around md:flex-row '>
+    <h2 className='text-center backdrop-blur-lg bg-slate-500 text-black'>Watchs</h2> 
+    <br />
+     <main className='flex flex-col justify-around md:flex-row'>
      
-     <div className='w-3/12 border-black border-2 bg-slate-600 flex flex-col justify-center items-center'>
+     <div className='w-full md:w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center '>
 
-<Image src="/watchno1rs800.PNG"  width={300} height={300}  alt="watch no 1" ></Image>
+<Image src="/watchno1rs800.PNG" width={300} height={300} alt="Watch 1" ></Image>
 
-<p className='text-center'>Strape Styles Watch</p>
+<p className='text-center'>Strap Leather Watch</p>
 
-<p className='text-center py-2'>Rs 930</p>
+<p className='text-center py-2'>price 800</p>
 
 <div className='flex justify-center my-2'>
     <button className='bg-red-500 text-white py-2 px-6 rounded-sm hover:bg-red-400'>Buy Now</button>
 </div>
 
 </div>
+
+<br />
 
 {/* 2nd */}
 
-<div className='w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
+<div className='w-full md:w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
 
-<Image src="/watchno2rs650.PNG"  width={300} height={300}  alt="watch no 2" ></Image>
+<Image src="/watchno2rs650.PNG" width={300} height={300} alt="Watch 2" ></Image>
 
-<p className='text-center'>Leather Styles Watch</p>
+<p className='text-center'>Brown Strap Watch</p>
 
-<p className='text-center py-2'>Rs 650</p>
+<p className='text-center py-2'>price 650</p>
 
 <div className='flex justify-center my-2'>
     <button className='bg-red-500 text-white py-2 px-6 rounded-sm hover:bg-red-400'>Buy Now</button>
 </div>
 
 </div>
+
+<br />
 
 {/* 3rd */}
 
-<div className='w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
+<div className='w-full md:w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
 
-<Image src="/watchno3rs2450.png"  width={300} height={300}  alt="watch no 3" ></Image>
+<Image src="/watchno4rs1500.png" width={300} height={300} alt="Watch 4" ></Image>
 
+<p className='text-center'>Couple Watch</p>
 
-<p className='text-center'>Premium Silver  Watch</p>
-
-<p className='text-center py-2'>Rs 2450</p>
+<p className='text-center py-2'>price 1500</p>
 
 <div className='flex justify-center my-2'>
     <button className='bg-red-500 text-white py-2 px-6 rounded-sm hover:bg-red-400'>Buy Now</button>
@@ -56,21 +58,23 @@ const Sec1 = () => {
 
 </div>
 
+<br />
+
 </main>
 
 <br />
 
-     <main className='flex justify-around md:flex-row '>
+<main className='flex flex-col justify-around md:flex-row'>
      
-     <div className='w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
+     <div className='w-full md:w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center '>
 
-<Image src="/watchno4rs1500.PNG"  width={350} height={300}  alt="watch no 4" ></Image>
+<Image src="/watchno3rs2450.png" width={300} height={300} alt="Watch 3" ></Image>
 
 <br />
 
-<p className='text-center'> Couple Stylish Chain Watch</p>
+<p className='text-center'>Golden Chain Watch</p>
 
-<p className='text-center py-2'>Rs 1300</p>
+<p className='text-center py-2'>price 2450</p>
 
 <div className='flex justify-center my-2'>
     <button className='bg-red-500 text-white py-2 px-6 rounded-sm hover:bg-red-400'>Buy Now</button>
@@ -78,18 +82,19 @@ const Sec1 = () => {
 
 </div>
 
-{/* 5nd */}
-
-<div className='w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
-
-<Image src="/watchno5rs1200.png"  width={300} height={300}  alt="watch no 5" ></Image>
-
-<br />
 <br />
 
-<p className='text-center'>  Premium Watch</p>
+{/* 5ft */}
 
-<p className='text-cente, py-2'>Rs 1200</p>
+<div className='w-full md:w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
+
+<Image src="/watchno5rs1200.png" width={300} height={300} alt="Watch 5" ></Image>
+
+<br />
+
+<p className='text-center'>Black Chain Watch</p>
+
+<p className='text-center py-2'>price 1200</p>
 
 <div className='flex justify-center my-2'>
     <button className='bg-red-500 text-white py-2 px-6 rounded-sm hover:bg-red-400'>Buy Now</button>
@@ -97,25 +102,30 @@ const Sec1 = () => {
 
 </div>
 
-{/* 6rd */}
+<br />
 
-<div className='w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
+{/* 6st */}
 
-<Image src="/watchno6rs3600.PNG"  width={300} height={300}  alt="watch no 6" ></Image>
+<div className='w-full md:w-3/12 border-black border-2  bg-slate-600 flex flex-col justify-center items-center'>
 
-<p className='text-center'> Permium GC Watch</p>
+<Image src="/watchno6rs3600.png" width={300} height={300} alt="Watch 6" ></Image>
 
-<p className='text-center py-2'>Rs 3600</p>
+<p className='text-center'>GC Stylish Chain Watch</p>
+
+<p className='text-center py-2'>price 3600</p>
 
 <div className='flex justify-center my-2'>
     <button className='bg-red-500 text-white py-2 px-6 rounded-sm hover:bg-red-400'>Buy Now</button>
 </div>
 
 </div>
+
+<br />
 
 </main>
-   </>
-  )
+
+</div>
+    )
 }
 
 export default Sec1
